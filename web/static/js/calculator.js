@@ -71,7 +71,7 @@ export class Calculator {
       },
       body: JSON.stringify({
         x: this.previousOperand,
-        y: this.currentOperand
+        y: this.currentOperand,
       })
     })
     if (!response.ok) {
